@@ -30,6 +30,32 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+.banner-card {
+  flex: 0 0 90%;
+  text-align: center;
+  padding: 100px 0;
+  outline: 1px solid #191919;
+  outline-offset: -10px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.banner-card h1 {
+  font-size: 40px;
+  color: #8fcbfd;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.banner-card span {
+  color: #03243e;
+}
+
+.banner-card h3 {
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  color: #03243e;
+}
 /* End: Header */
 
 /* Start: Nav */
