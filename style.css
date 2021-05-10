@@ -12,6 +12,26 @@ body {
 
 /* End: Global Styles */
 
+/* Start: Header */
+header {
+  min-height: 100vh;
+  background: url("img/header-bcg.jpeg") center/cover fixed no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  flex: 0 0 auto;
+}
+
+.banner {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End: Header */
+
 /* Start: Nav */
 .nav-container {
   padding: 0 20px;
