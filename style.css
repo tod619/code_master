@@ -153,6 +153,7 @@ nav {
     display: flex !important;
     flex: 1 0 auto;
     flex-wrap: wrap;
+    align-self: center;
     justify-content: flex-start;
   }
 
@@ -169,6 +170,31 @@ nav {
 
   .nav-links a:hover {
     padding-left: 10px;
+  }
+
+  .nav-icons {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0 20px;
+  }
+
+  .nav-icons li {
+    flex: 1 0 40px;
+    text-align: center;
+  }
+
+  .nav-icons a {
+    font-size: 30px;
+    color: #8fcbfd;
+    transition: color 0.5s ease;
+  }
+
+  .nav-icons a:hover {
+    color: #f5f3f5;
   }
 }
 /* End: Media Queries */
