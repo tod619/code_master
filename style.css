@@ -15,7 +15,8 @@ body {
 /* Start: Header */
 header {
   min-height: 100vh;
-  background: url("img/header-bcg.jpeg") center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/header-bcg.jpeg") center/cover fixed no-repeat;
   display: flex;
   flex-direction: column;
 }
@@ -128,3 +129,46 @@ nav {
   display: none;
 }
 /* End: Nav */
+
+/* Start: Media Queries */
+@media (min-width: 992px) {
+  .btn {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .nav-container {
+    background: transparent;
+    border-bottom: none;
+    flex: 0 0 auto;
+  }
+
+  .nav-links {
+    padding: 0 20px;
+    display: flex !important;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .nav-links li {
+    flex: 1 0 auto;
+  }
+
+  .nav-links a {
+    background: transparent;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 10px;
+  }
+
+  .nav-links a:hover {
+    padding-left: 10px;
+  }
+}
+/* End: Media Queries */
