@@ -16,4 +16,15 @@ $(document).ready(function(){
             $('nav, .nav-container').removeClass('nav-background')
         }
     })
+
+    // Smooth Scroll
+    $('.nav-links a').click(function(link){
+        link.preventDefault()
+
+        let target = $(this).attr('href');
+        
+        $('html, body').stop().animate({
+            scrollTop: $(target).offset().top
+        }, 3000);
+    })
 })
