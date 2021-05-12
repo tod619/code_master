@@ -141,6 +141,18 @@ nav {
 }
 /* End: Nav */
 
+/* Start: Skills Section */
+.skills {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("img/skills-bcg.jpeg") center/cover fixed no-repeat;
+}
+
+.skills-center {
+  width: 90%;
+  margin: 0 auto;
+}
+/* End: Skills Section */
+
 /* Start: Media Queries */
 @media (min-width: 992px) {
   .btn {
