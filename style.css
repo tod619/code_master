@@ -173,6 +173,7 @@ nav {
 
 .skill p {
   line-height: 2;
+  letter-spacing: 5px;
 }
 /* End: Skills Section */
 
@@ -246,5 +247,23 @@ nav {
   .banner-card {
     flex: 0 0 70%;
   }
+
+  /* Start: Skills */
+
+  /* End: Skills */
+}
+
+@media (min-width: 775px) {
+  /* Start: Skills */
+  .skills-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .skill {
+    flex: 0 0 calc(50% - 20px);
+  }
+  /* End: skills */
 }
 /* End: Media Queries */
