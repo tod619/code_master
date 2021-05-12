@@ -128,6 +128,17 @@ nav {
 .nav-icons {
   display: none;
 }
+
+.nav-background {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  transition: background 0.5s ease;
+}
 /* End: Nav */
 
 /* Start: Media Queries */
@@ -195,6 +206,10 @@ nav {
 
   .nav-icons a:hover {
     color: #f5f3f5;
+  }
+
+  .banner-card {
+    flex: 0 0 70%;
   }
 }
 /* End: Media Queries */
