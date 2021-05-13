@@ -357,4 +357,22 @@ nav {
   }
   /* End: Skills */
 }
+
+@media (min-width: 776px) {
+  /* Start: About Section */
+  .about {
+    display: flex;
+    background: #03243e;
+  }
+
+  .about-text {
+    flex: 0 0 30%;
+  }
+
+  .about-img {
+    flex: 0 0 70%;
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+  }
+  /* End: About Section */
+}
 /* End: Media Queries */
