@@ -177,6 +177,13 @@ nav {
 }
 /* End: Skills Section */
 
+/* Start: About Section */
+.about-img {
+  min-height: 80vh;
+  background: url("img/about-bcg.jpeg") center/cover fixed no-repeat;
+}
+/* End: About Section */
+
 /* Start: Media Queries */
 @media (min-width: 992px) {
   .btn {
