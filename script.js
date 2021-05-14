@@ -25,6 +25,6 @@ $(document).ready(function(){
         
         $('html, body').stop().animate({
             scrollTop: $(target).offset().top
-        }, 3000);
+        }, 2000);
     })
 })
