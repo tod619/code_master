@@ -549,5 +549,8 @@ nav {
 
 .customer img {
   width: 150px !important;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: -60px;
 }
 /* End: Customer  Section */
