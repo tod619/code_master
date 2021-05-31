@@ -644,4 +644,19 @@ nav {
   background: #191919;
   color: #8fcbfd;
 }
+
+@media (min-width: 776px) {
+  .contact-center {
+    display: flex;
+    padding: 0 40px;
+  }
+
+  .contact-info {
+    flex: 0 0 calc(60% - 1em);
+  }
+
+  .contact-form {
+    flex: 0 0 calc(40% - 1em);
+  }
+}
 /* End: Contact Section */
