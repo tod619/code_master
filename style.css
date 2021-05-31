@@ -584,4 +584,64 @@ nav {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
+.contact-form {
+  background: #f5f3f5;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.contact-form h3 {
+  width: 100%;
+  background: #8fcbfd;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  margin: 5px 0;
+  padding: 5px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #8fcbfd;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+  text-transform: capitalize;
+  color: #8a8e8a;
+}
+
+.contact-form button {
+  font-size: 25px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-family: inherit;
+  text-transform: capitalize;
+  background: #8fcbfd;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 0;
+  color: #f5f3f5;
+  transition: all 0.5s ease;
+}
+
+.contact-form button:hover {
+  background: #191919;
+  color: #8fcbfd;
+}
 /* End: Contact Section */
