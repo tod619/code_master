@@ -562,4 +562,26 @@ nav {
     url("img/projects-1.jpeg") center/cover fixed no-repeat;
   color: #f5f3f5;
 }
+
+.contact-info,
+.contact-form {
+  margin: 40px 0;
+  padding: 20px 40px;
+}
+
+.contact-detail {
+  display: flex;
+  margin: 20px 0;
+}
+
+.contact-icon {
+  font-size: 50px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.contact-text h3 {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
 /* End: Contact Section */
